@@ -1,0 +1,611 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("css/font/Roboto-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "Roboto";
+}
+a {
+  text-decoration: none;
+  font-family: tahoma;
+}
+ul {
+  list-style: none;
+}
+li {
+  list-style: none;
+}
+img {
+  width: 100%;
+}
+button {
+  border: none;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+
+/* TOP HEADER AREA START FROM HERE */
+
+.top-header-area {
+  width: 100%;
+  background-color: #124478;
+}
+.top-header-container {
+  width: 80%;
+  margin: 0 auto;
+  height: 45px;
+}
+/*left side of top header*/
+.top-header-left {
+  width: 65%;
+  font-size: 20px;
+  display: inline;
+  padding: 0.6% 0 0 0;
+}
+.top-header-left span {
+  padding-left: 0.5%;
+  color: #fff;
+}
+.top-header-left i {
+  padding-left: 1%;
+  color: #f3991e;
+}
+/*right area of top header from here*/
+.top-header-right {
+  width: 30%;
+  font-size: 20px;
+  padding: 0.6% 5% 0 0;
+}
+.top-header-right i {
+  display: inline;
+  margin-right: 5%;
+  color: #fff;
+}
+.top-header-right i:hover {
+  color: lightskyblue;
+}
+/* TOP HEADER AREA ENDED HERE */
+/*           MAIN HEADER AREA START FROM HERE           */
+.main-header-area {
+  width: 100%;
+  height: 90px;
+  background-color: #fff;
+  border-bottom: 1px solid lightgray;
+}
+.header-container {
+  width: 80%;
+  margin: 0 auto;
+}
+.header-row {
+  width: 100%;
+  margin: 0 auto;
+}
+.logo {
+  width: 20%;
+  margin-top: 1%;
+}
+.menu-items {
+  width: 60%;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  text-align: end;
+  padding: 2% 0 0 0;
+}
+.menu-items li {
+  display: inline;
+  padding: 0 0 0 2%;
+}
+.menu-items li:hover,
+.active {
+  color: #f3991e;
+}
+.call-icon {
+  font-size: 25px;
+  width: 3.5%;
+  text-align: center;
+  margin: 1% 1% 0 0;
+  padding: 1% 0.1%;
+  border: 1px solid #124478;
+  border-radius: 50%;
+}
+.call-icon:hover {
+  color: #f3991e;
+  border: 1px solid #f3991e;
+}
+.book-now {
+  font-weight: bold;
+  color: #fff;
+  background-color: #124478;
+  font-size: 19px;
+  width: 11%;
+  padding: 0.6% 2%;
+  margin: 1.5% auto;
+  border-radius: 18px;
+  cursor: pointer;
+}
+.book-now:hover {
+  background-color: #f3991e;
+  color: #124478;
+}
+/*            MAIN HEADER AREA ENDED HERE         */
+/*        HERO SECTION STARTED FROM HERE     */
+.hero-section-area {
+  width: 100%;
+  height: 100vh;
+  background: url("img/hero-background.png");
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+.hero-section {
+  height: 100%;
+  width: 100%;
+}
+.hero-section-contents {
+  width: 28%;
+  height: 50%;
+  margin: 0 auto;
+  padding: 15% 35% 0 0;
+}
+.hero-section-title {
+  font-size: 65px;
+  font-weight: bolder;
+  padding: 0 0 5% 0;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+.sub-title {
+  font-size: 20px;
+  font-weight: normal;
+  color: gray;
+  text-justify: auto;
+  padding: 0 0 5% 0;
+}
+.hero-section-btn {
+  font-size: 16px;
+  padding: 3% 8%;
+  border-radius: 7%;
+  box-shadow: 0px 15px 25px 0px rgba(0, 0, 0, 0.1);
+}
+.hero-section-btn:hover {
+  background-color: #4169e1;
+  color: white !important;
+  box-shadow: 0px 15px 25px 0px rgba(0, 0, 0, 0.1);
+}
+/*          HERO SECTION ENDED HERE           */
+/* SERVICERS CONTAINER STARTED FROM HERE     */
+.our-services-container {
+  width: 100%;
+  height: 140vh;
+  background-color: #f2f9ff;
+}
+.services-container {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+.services {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.services h1 {
+  padding-top: 5%;
+  font-size: 50px;
+  font-weight: bolder;
+}
+.services marquee {
+  width: 40%;
+  margin: 3% 0 4% 0;
+  font-size: 20px;
+  border: 1px dashed #4169e1;
+}
+
+.web-service {
+  width: 20%;
+  height: 44vh;
+  border: 2px dashed #9356d3;
+  border-radius: 3%;
+  margin-right: 2.1%;
+  margin-left: 2.1%;
+}
+span .fa {
+  color: #f3991e;
+  font-size: 50px;
+  padding: 8% 8%;
+  border: 2px solid #f3991e;
+  border-radius: 50%;
+  margin-top: 7%;
+}
+.web-service h1 {
+  padding: 5% 0 5% 0;
+  font-size: 30px;
+}
+.web-service p {
+  font-size: 17px;
+  margin: 0 8%;
+  word-spacing: 2px;
+  letter-spacing: 0.3px;
+}
+.margintop {
+  margin-top: 5%;
+}
+/*        SERVICES CONTAINER ENDED HERE       */
+/*      GALLERY CONTAINER STARTED HERE        */
+.gallery-section-area {
+  width: 100%;
+  height: 85vh;
+  padding-bottom: 3em;
+}
+.gallery-section {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+.gallery-content {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  padding: 10% 0 0 0;
+}
+.gallery-text {
+  width: 40%;
+  height: 60%;
+  padding: 10% 0 0 12%;
+}
+.gallery-text strong {
+  color: #f3991e;
+}
+.gallery-text p {
+  font-size: 18px;
+  padding: 5% 0 15% 0;
+}
+.gallery-text i {
+  font-size: 25px;
+  margin: 0 0 0 1%;
+  padding: 5% 6%;
+  background-color: #124478;
+  color: #fff;
+  border-radius: 45%;
+}
+.gallery-img {
+  width: 40%;
+  height: 60%;
+  padding: 0 5% 2% 0;
+}
+.gallery-img img {
+  width: 100%;
+  height: 100%;
+  padding: 0 10% 10% 0;
+  box-shadow: -1px 2px 9px rgb(0, 0, 0);
+}
+/*      GALLERY CONTAINER ENDED HERE       */
+/*    REVIEW CONTAINER STARTED HERE      */
+.review-section-area {
+  width: 100%;
+  height: 50vh;
+  background-color: #124478;
+}
+.review-section {
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+}
+.review-content {
+  width: 100%;
+  height: 60%;
+  padding: 8% 0 0 0;
+  margin: 0 auto;
+}
+.review-text {
+  padding: 0 0 0 5%;
+  width: 40%;
+  height: 60%;
+}
+.review-text i {
+  font-size: 25px;
+  padding: 0;
+  border: none;
+}
+.review-text h1 {
+  font-weight: bolder;
+  font-size: 35px;
+  color: #f3991e;
+  padding: 0 0 5% 0;
+}
+.review-text strong {
+  color: #f3991e;
+}
+.review-text p {
+  padding: 3% 0 0 0;
+  color: white;
+}
+.review-img {
+  width: 48%;
+  height: 40%;
+  padding: 0 5% 0 0;
+}
+.review-img img {
+  border: 2px solid #f3991e;
+  border-radius: 17px;
+}
+/*    REVIEW CONTAINER ENDED HERE     */
+/* MAIN FOOTER AREA STARTED HERE */
+.main-footer-area {
+  width: 100%;
+  height: 80vh;
+}
+.main-footer {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+.main-footer-content {
+  width: 75%;
+  height: 80%;
+  margin: 0 auto;
+  padding: 5% 0 0 0;
+}
+.footer-logo {
+  width: 25%;
+  height: 60%;
+}
+.footer-logo img {
+  padding: 0 0 9% 0;
+}
+.links-footer {
+  margin-left: 5%;
+  width: 20%;
+  height: 60%;
+}
+.services-footer {
+  margin-left: 2%;
+  width: 20%;
+  height: 60%;
+}
+.contact-footer {
+  margin-left: 5%;
+  width: 20%;
+  height: 60%;
+}
+.links-footer li {
+  padding: 2%;
+}
+.services-footer li {
+  padding: 2%;
+}
+.contact-footer li {
+  padding: 2%;
+}
+.contact-footer h3 {
+  padding-bottom: 5%;
+}
+.links-footer h3 {
+  padding-bottom: 5%;
+}
+.services-footer h3 {
+  padding-bottom: 5%;
+}
+.social-links {
+  padding: 6% 0 0 0;
+}
+.social-links a {
+  font-size: 20px;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  background-color: skyblue;
+  padding: 3% 5%;
+  color: #4169e1;
+}
+.social-links a:hover {
+  color: gray;
+  border: 1px solid #f3991e;
+}
+
+.links-footer i {
+  padding: 0;
+  border: none;
+  font-size: 18px;
+}
+/* MAIN FOOTER AREA ENDED HERE */
+.footer-area {
+  width: 100vw;
+  height: 5vh;
+  background-color: #124478;
+}
+.footer-content {
+  width: 100vw;
+  height: 50%;
+  text-align: center;
+  color: white;
+}
+.footer-content p {
+  padding-top: 0.7%;
+}
+/* END OF PROJECT SOFTXWEB.COM HOMEPAGE */
+/* tabel for js training */
+.table-for-js {
+  width: 50vw;
+  height: 30vh;
+  margin: 0 auto;
+}
+.the-table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+/* tabel for js training */
+.form-for-js {
+  width: 50vw;
+  height: 30vh;
+  margin: 0 auto;
+  padding: 5em 0;
+}
+.form-js {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.click-for-function {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.click-for-fun {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.btn-fun {
+  width: 20%;
+  height: 10%;
+  margin: 0 auto;
+}
+.btn-fun button {
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: greenyellow;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  border: 1px solid pink;
+}
+.images-fun {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  position: relative;
+}
+.images-fun img {
+  width: 30%;
+  height: 50%;
+  margin: 0 2%;
+  display: none;
+}
+#subbmit {
+  width: 50px;
+  height: 30px;
+  font-weight: bold;
+  background-color: antiquewhite;
+  display: block;
+}
+/* new div here just to practice js */
+
+.for-training-js-container {
+  width: 100vw;
+  height: 90vh;
+  margin: 0 auto;
+  padding: 2em 0;
+  border-bottom: 1px solid black;
+}
+.js-container {
+  width: 80%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.js-contents {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 5em;
+}
+.js-contents button {
+  width: 10%;
+  height: 5%;
+  font-size: 1.5em;
+  color: white;
+  border: 0.01em solid greenyellow;
+  background-color: palevioletred;
+  margin: 1em;
+}
+.title-paragraph {
+  width: 90%;
+}
+#btn-3 {
+  background-color: orangered;
+}
+
+#codii {
+  border: none;
+}
+#codii i {
+  font-size: 5em;
+  padding: 0;
+}
+.bg-color-black {
+  background-color: black;
+  color: white;
+}
+
+/* for that copy JavaScript code */
+
+.for-training-js-container2 {
+  width: 100vw;
+  height: 90vh;
+  margin: 0 auto;
+  padding: 2em 0;
+  border-bottom: 1px solid black;
+}
+.js-container2 {
+  width: 80%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.js-contents2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 5em;
+}
+.js-contents2 button {
+  width: 10%;
+  height: 5%;
+  font-size: 1.5em;
+  color: white;
+  border: 0.01em solid greenyellow;
+  background-color: palevioletred;
+  margin: 1em;
+}
+.title-paragraph2 {
+  width: 90%;
+}
+#btn-three {
+  background-color: orangered;
+}
